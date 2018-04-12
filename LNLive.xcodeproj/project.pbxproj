@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C7DA2F9207DDF310028BFF1 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7DA2F8207DDF310028BFF1 /* GPUImage.framework */; };
+		4C7DA2FE207DE17B0028BFF1 /* LNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7DA2FD207DE17B0028BFF1 /* LNMainViewController.m */; };
+		4C7DA304207DE40E0028BFF1 /* LNSystemAVCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7DA303207DE40E0028BFF1 /* LNSystemAVCapture.m */; };
+		4C84410F207CDBEC00860269 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C84410E207CDBEC00860269 /* AppDelegate.m */; };
+		4C844117207CDBED00860269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C844116207CDBED00860269 /* Assets.xcassets */; };
+		4C84411A207CDBED00860269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C844118207CDBED00860269 /* LaunchScreen.storyboard */; };
+		4C84411D207CDBED00860269 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C84411C207CDBED00860269 /* main.m */; };
+		4C844127207CDBED00860269 /* LNLiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C844126207CDBED00860269 /* LNLiveUITests.m */; };
+		B4ACB7CFFA6DC5D12A181032 /* libPods-LNLiveUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 389E6E373367F07A281A158D /* libPods-LNLiveUITests.a */; };
+		E678768CE92BB16AFA43BA3E /* libPods-LNLive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64613BFADBE03D7EC18FF54E /* libPods-LNLive.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C844123207CDBED00860269 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C844102207CDBEC00860269 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C844109207CDBEC00860269;
+			remoteInfo = LNLive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		389E6E373367F07A281A158D /* libPods-LNLiveUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LNLiveUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4705265E8EA068CFA942FD32 /* Pods-LNLiveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNLiveUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LNLiveUITests/Pods-LNLiveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4C7DA2F8207DDF310028BFF1 /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GPUImage.framework; sourceTree = "<group>"; };
+		4C7DA2FA207DDF850028BFF1 /* LNAVCaptureHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAVCaptureHeader.h; sourceTree = "<group>"; };
+		4C7DA2FC207DE17B0028BFF1 /* LNMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNMainViewController.h; sourceTree = "<group>"; };
+		4C7DA2FD207DE17B0028BFF1 /* LNMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNMainViewController.m; sourceTree = "<group>"; };
+		4C7DA302207DE40E0028BFF1 /* LNSystemAVCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNSystemAVCapture.h; sourceTree = "<group>"; };
+		4C7DA303207DE40E0028BFF1 /* LNSystemAVCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNSystemAVCapture.m; sourceTree = "<group>"; };
+		4C84410A207CDBEC00860269 /* LNLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C84410D207CDBEC00860269 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C84410E207CDBEC00860269 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C844116207CDBED00860269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C844119207CDBED00860269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C84411B207CDBED00860269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C84411C207CDBED00860269 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C844122207CDBED00860269 /* LNLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LNLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C844126207CDBED00860269 /* LNLiveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNLiveUITests.m; sourceTree = "<group>"; };
+		4C844128207CDBED00860269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C844139207CEDB500860269 /* LNUIHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNUIHeader.h; sourceTree = "<group>"; };
+		64613BFADBE03D7EC18FF54E /* libPods-LNLive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LNLive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DEC80302945FF023483F509 /* Pods-LNLiveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNLiveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LNLiveUITests/Pods-LNLiveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		990D60D4E83F671B9B282665 /* Pods-LNLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-LNLive/Pods-LNLive.release.xcconfig"; sourceTree = "<group>"; };
+		B951E2BC2C5EB42D7E79DBAA /* Pods-LNLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LNLive/Pods-LNLive.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C844107207CDBEC00860269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E678768CE92BB16AFA43BA3E /* libPods-LNLive.a in Frameworks */,
+				4C7DA2F9207DDF310028BFF1 /* GPUImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C84411F207CDBED00860269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4ACB7CFFA6DC5D12A181032 /* libPods-LNLiveUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C7DA2F5207DDAF80028BFF1 /* AVCapture */ = {
+			isa = PBXGroup;
+			children = (
+				4C7DA2F6207DDB040028BFF1 /* SystemAVCapture */,
+			);
+			path = AVCapture;
+			sourceTree = "<group>";
+		};
+		4C7DA2F6207DDB040028BFF1 /* SystemAVCapture */ = {
+			isa = PBXGroup;
+			children = (
+				4C7DA302207DE40E0028BFF1 /* LNSystemAVCapture.h */,
+				4C7DA303207DE40E0028BFF1 /* LNSystemAVCapture.m */,
+			);
+			path = SystemAVCapture;
+			sourceTree = "<group>";
+		};
+		4C7DA2F7207DDEEA0028BFF1 /* 3rd-frameWork */ = {
+			isa = PBXGroup;
+			children = (
+				4C7DA2F8207DDF310028BFF1 /* GPUImage.framework */,
+			);
+			path = "3rd-frameWork";
+			sourceTree = "<group>";
+		};
+		4C7DA2FB207DE1180028BFF1 /* Entrance */ = {
+			isa = PBXGroup;
+			children = (
+				4C84410D207CDBEC00860269 /* AppDelegate.h */,
+				4C84410E207CDBEC00860269 /* AppDelegate.m */,
+				4C7DA2FC207DE17B0028BFF1 /* LNMainViewController.h */,
+				4C7DA2FD207DE17B0028BFF1 /* LNMainViewController.m */,
+			);
+			path = Entrance;
+			sourceTree = "<group>";
+		};
+		4C844101207CDBEB00860269 = {
+			isa = PBXGroup;
+			children = (
+				4C84410C207CDBEC00860269 /* LNLive */,
+				4C844125207CDBED00860269 /* LNLiveUITests */,
+				4C84410B207CDBEC00860269 /* Products */,
+				72B19136E3701E35B50A0ADB /* Pods */,
+				6D365C9895EBC4679CE67346 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C84410B207CDBEC00860269 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C84410A207CDBEC00860269 /* LNLive.app */,
+				4C844122207CDBED00860269 /* LNLiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C84410C207CDBEC00860269 /* LNLive */ = {
+			isa = PBXGroup;
+			children = (
+				4C7DA2F7207DDEEA0028BFF1 /* 3rd-frameWork */,
+				4C844138207CED9100860269 /* LNHeader */,
+				4C7DA2FB207DE1180028BFF1 /* Entrance */,
+				4C7DA2F5207DDAF80028BFF1 /* AVCapture */,
+				4C844116207CDBED00860269 /* Assets.xcassets */,
+				4C844118207CDBED00860269 /* LaunchScreen.storyboard */,
+				4C84411B207CDBED00860269 /* Info.plist */,
+				4C84411C207CDBED00860269 /* main.m */,
+			);
+			path = LNLive;
+			sourceTree = "<group>";
+		};
+		4C844125207CDBED00860269 /* LNLiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C844126207CDBED00860269 /* LNLiveUITests.m */,
+				4C844128207CDBED00860269 /* Info.plist */,
+			);
+			path = LNLiveUITests;
+			sourceTree = "<group>";
+		};
+		4C844138207CED9100860269 /* LNHeader */ = {
+			isa = PBXGroup;
+			children = (
+				4C844139207CEDB500860269 /* LNUIHeader.h */,
+				4C7DA2FA207DDF850028BFF1 /* LNAVCaptureHeader.h */,
+			);
+			path = LNHeader;
+			sourceTree = "<group>";
+		};
+		6D365C9895EBC4679CE67346 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64613BFADBE03D7EC18FF54E /* libPods-LNLive.a */,
+				389E6E373367F07A281A158D /* libPods-LNLiveUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72B19136E3701E35B50A0ADB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B951E2BC2C5EB42D7E79DBAA /* Pods-LNLive.debug.xcconfig */,
+				990D60D4E83F671B9B282665 /* Pods-LNLive.release.xcconfig */,
+				7DEC80302945FF023483F509 /* Pods-LNLiveUITests.debug.xcconfig */,
+				4705265E8EA068CFA942FD32 /* Pods-LNLiveUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C844109207CDBEC00860269 /* LNLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C84412B207CDBED00860269 /* Build configuration list for PBXNativeTarget "LNLive" */;
+			buildPhases = (
+				D11C53133B52708549CB43F4 /* [CP] Check Pods Manifest.lock */,
+				4C844106207CDBEC00860269 /* Sources */,
+				4C844107207CDBEC00860269 /* Frameworks */,
+				4C844108207CDBEC00860269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LNLive;
+			productName = LNLive;
+			productReference = 4C84410A207CDBEC00860269 /* LNLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C844121207CDBED00860269 /* LNLiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C84412E207CDBED00860269 /* Build configuration list for PBXNativeTarget "LNLiveUITests" */;
+			buildPhases = (
+				5286982D3EB04E8536CF93C1 /* [CP] Check Pods Manifest.lock */,
+				4C84411E207CDBED00860269 /* Sources */,
+				4C84411F207CDBED00860269 /* Frameworks */,
+				4C844120207CDBED00860269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C844124207CDBED00860269 /* PBXTargetDependency */,
+			);
+			name = LNLiveUITests;
+			productName = LNLiveUITests;
+			productReference = 4C844122207CDBED00860269 /* LNLiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C844102207CDBEC00860269 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LN;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = ZLN;
+				TargetAttributes = {
+					4C844109207CDBEC00860269 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					4C844121207CDBED00860269 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 4C844109207CDBEC00860269;
+					};
+				};
+			};
+			buildConfigurationList = 4C844105207CDBEC00860269 /* Build configuration list for PBXProject "LNLive" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C844101207CDBEB00860269;
+			productRefGroup = 4C84410B207CDBEC00860269 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C844109207CDBEC00860269 /* LNLive */,
+				4C844121207CDBED00860269 /* LNLiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C844108207CDBEC00860269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C84411A207CDBED00860269 /* LaunchScreen.storyboard in Resources */,
+				4C844117207CDBED00860269 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C844120207CDBED00860269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5286982D3EB04E8536CF93C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LNLiveUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D11C53133B52708549CB43F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LNLive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C844106207CDBEC00860269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C7DA304207DE40E0028BFF1 /* LNSystemAVCapture.m in Sources */,
+				4C7DA2FE207DE17B0028BFF1 /* LNMainViewController.m in Sources */,
+				4C84411D207CDBED00860269 /* main.m in Sources */,
+				4C84410F207CDBEC00860269 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C84411E207CDBED00860269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C844127207CDBED00860269 /* LNLiveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C844124207CDBED00860269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C844109207CDBEC00860269 /* LNLive */;
+			targetProxy = 4C844123207CDBED00860269 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C844118207CDBED00860269 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C844119207CDBED00860269 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C844129207CDBED00860269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C84412A207CDBED00860269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C84412C207CDBED00860269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B951E2BC2C5EB42D7E79DBAA /* Pods-LNLive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QQQKQQXNQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LNLive/3rd-frameWork",
+				);
+				INFOPLIST_FILE = LNLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZLN.LNLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4C84412D207CDBED00860269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 990D60D4E83F671B9B282665 /* Pods-LNLive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QQQKQQXNQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LNLive/3rd-frameWork",
+				);
+				INFOPLIST_FILE = LNLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZLN.LNLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4C84412F207CDBED00860269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DEC80302945FF023483F509 /* Pods-LNLiveUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QQQKQQXNQ;
+				INFOPLIST_FILE = LNLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZLN.LNLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LNLive;
+			};
+			name = Debug;
+		};
+		4C844130207CDBED00860269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4705265E8EA068CFA942FD32 /* Pods-LNLiveUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QQQKQQXNQ;
+				INFOPLIST_FILE = LNLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZLN.LNLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LNLive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C844105207CDBEC00860269 /* Build configuration list for PBXProject "LNLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C844129207CDBED00860269 /* Debug */,
+				4C84412A207CDBED00860269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C84412B207CDBED00860269 /* Build configuration list for PBXNativeTarget "LNLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C84412C207CDBED00860269 /* Debug */,
+				4C84412D207CDBED00860269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C84412E207CDBED00860269 /* Build configuration list for PBXNativeTarget "LNLiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C84412F207CDBED00860269 /* Debug */,
+				4C844130207CDBED00860269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C844102207CDBEC00860269 /* Project object */;
+}
