@@ -10,4 +10,6 @@
 
 @interface LNSystemAVCapture : NSObject
 
+- (void)startRuning;
+
 @end

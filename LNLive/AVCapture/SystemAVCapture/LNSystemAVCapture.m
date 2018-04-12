@@ -26,6 +26,10 @@
 
 @implementation LNSystemAVCapture
 
+- (void)startRuning {
+    [self.captureSession startRunning];
+}
+
 - (instancetype)init {
     if (self = [super init]) {
         [self onInit];
@@ -85,7 +89,11 @@
     }
     
     [self.captureSession commitConfiguration];
-    [self.captureSession startRunning];
+}
+
+#pragma mark - AVCaptureVideoDataOutputSampleBufferDelegate
+- (void)captureOutput:(AVCaptureOutput *)output didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer fromConnection:(AVCaptureConnection *)connection {
+    
 }
 
 #pragma mark - getter
